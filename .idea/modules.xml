@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/xiaopang.iml" filepath="$PROJECT_DIR$/xiaopang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaopang-common/xiaopang-common.iml" filepath="$PROJECT_DIR$/xiaopang-common/xiaopang-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaopang-dao/xiaopang-dao.iml" filepath="$PROJECT_DIR$/xiaopang-dao/xiaopang-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaopang-platform/xiaopang-platform.iml" filepath="$PROJECT_DIR$/xiaopang-platform/xiaopang-platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaopang-service/xiaopang-service.iml" filepath="$PROJECT_DIR$/xiaopang-service/xiaopang-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaopang-web/xiaopang-web.iml" filepath="$PROJECT_DIR$/xiaopang-web/xiaopang-web.iml" />
+    </modules>
+  </component>
+</project>

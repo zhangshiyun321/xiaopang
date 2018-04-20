@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="xiaopang-web:war">
+    <output-path>$PROJECT_DIR$/xiaopang-web/target</output-path>
+    <root id="archive" name="xiaopang-web.war">
+      <element id="artifact" artifact-name="xiaopang-web:war exploded" />
+    </root>
+  </artifact>
+</component>
