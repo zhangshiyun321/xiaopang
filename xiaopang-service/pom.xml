@@ -8,8 +8,16 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
     <artifactId>xiaopang-service</artifactId>
 
+    <dependencies>
+        <!-- zsy begin 2018-04-20 导入组内模块 -->
+        <dependency>
+            <groupId>com.xiaopang</groupId>
+            <artifactId>xiaopang-dao</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!-- zsy end 2018-04-20 导入组内模块 -->
+    </dependencies>
 
 </project>

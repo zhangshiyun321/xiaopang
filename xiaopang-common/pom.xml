@@ -11,5 +11,11 @@
 
     <artifactId>xiaopang-common</artifactId>
 
+    <dependencies>
+        <dependency>
+             <groupId>commons-dbcp</groupId>
+             <artifactId>commons-dbcp</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
