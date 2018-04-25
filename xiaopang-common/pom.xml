@@ -13,8 +13,14 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.kuali.commons</groupId>
+            <artifactId>commons-beanutils</artifactId>
+            <version>1.8.3-kuali-4</version>
+        </dependency>
+        <dependency>
              <groupId>commons-dbcp</groupId>
              <artifactId>commons-dbcp</artifactId>
+            <version>1.4</version>
         </dependency>
     </dependencies>
 

@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/xiaopang-dao/xiaopang-dao.iml" filepath="$PROJECT_DIR$/xiaopang-dao/xiaopang-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaopang-platform/xiaopang-platform.iml" filepath="$PROJECT_DIR$/xiaopang-platform/xiaopang-platform.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaopang-service/xiaopang-service.iml" filepath="$PROJECT_DIR$/xiaopang-service/xiaopang-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaopang-shiro/xiaopang-shiro.iml" filepath="$PROJECT_DIR$/xiaopang-shiro/xiaopang-shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaopang-web/xiaopang-web.iml" filepath="$PROJECT_DIR$/xiaopang-web/xiaopang-web.iml" />
     </modules>
   </component>

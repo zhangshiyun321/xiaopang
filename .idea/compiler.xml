@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="xiaopang-common" />
         <module name="xiaopang-dao" />
         <module name="xiaopang-platform" />
         <module name="xiaopang-service" />
+        <module name="xiaopang-shiro" />
         <module name="xiaopang-web" />
       </profile>
     </annotationProcessing>
@@ -18,6 +20,7 @@
       <module name="xiaopang-dao" target="1.5" />
       <module name="xiaopang-platform" target="1.7" />
       <module name="xiaopang-service" target="1.5" />
+      <module name="xiaopang-shiro" target="1.5" />
       <module name="xiaopang-web" target="1.7" />
     </bytecodeTargetLevel>
   </component>
