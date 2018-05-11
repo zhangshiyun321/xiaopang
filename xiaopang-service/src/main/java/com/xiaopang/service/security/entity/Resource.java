@@ -12,6 +12,10 @@ public class Resource {
     @Column(name = "id",length = 64)
     private Long id;
 
+    /** url */
+    @Column(name = "url",length = 1024)
+    private String url;
+
     /** 资源ID */
     @Column(name = "resourceId",length = 128)
     private String resourceId;
@@ -27,10 +31,6 @@ public class Resource {
     /** 资源所对应的包路径 */
     @Column(name = "methodPath",length = 1024)
     private String methodPath;
-
-    /** url */
-    @Column(name = "url",length = 1024)
-    private String url;
 
     /** 备注 */
     @Column(name = "remark",length = 1024)
