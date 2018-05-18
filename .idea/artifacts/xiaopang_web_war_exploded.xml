@@ -10,25 +10,10 @@
           <element id="archive" name="xiaopang-service-1.0-SNAPSHOT.jar">
             <element id="module-output" name="xiaopang-service" />
           </element>
-          <element id="archive" name="xiaopang-dao-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="xiaopang-dao" />
-          </element>
-          <element id="archive" name="xiaopang-common-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="xiaopang-common" />
-          </element>
-          <element id="library" level="project" name="Maven: org.kuali.commons:commons-beanutils:1.8.3-kuali-4" />
-          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.1.1" />
-          <element id="library" level="project" name="Maven: commons-dbcp:commons-dbcp:1.4" />
-          <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.5.4" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-security:unknown" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-security-tests:1.5.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.7" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:1.5.9.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter:1.5.9.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-logging:1.5.9.RELEASE" />
-          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.1.11" />
-          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.1.11" />
-          <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.7.25" />
-          <element id="library" level="project" name="Maven: org.slf4j:log4j-over-slf4j:1.7.25" />
-          <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.17" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:5.3.6.Final" />
           <element id="library" level="project" name="Maven: javax.validation:validation-api:1.1.0.Final" />
           <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.3.0.Final" />
@@ -85,6 +70,10 @@
           <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.8" />
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.28" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.39" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter:1.5.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.17" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.5" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.5" />
         </element>
       </element>
       <element id="directory" name="META-INF">
