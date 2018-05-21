@@ -11,4 +11,7 @@ public class Test {
         logger.warn("创建的活动id："+333);
         logger.error("创建的活动id："+444);
     }
+    public static void test1(){
+        logger.info("zsy===创建的活动id："+222);
+    }
 }
