@@ -8,7 +8,42 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
     <artifactId>xiaopang-frame</artifactId>
+    <properties>
+        <spring-boot.version>1.5.9.RELEASE</spring-boot.version>
+    </properties>
+
+    <dependencies>
+        <!-- zsy add begin 2018-07-05 导入组内模块 -->
+        <dependency>
+            <groupId>com.xiaopang</groupId>
+            <artifactId>xiaopang-dao</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!-- zsy add end 2018-04-20 导入组内模块 -->
+
+        <!-- zsy add begin 2018-07-05 整合spring security 框架 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+            <version>1.5.9.RELEASE</version>
+        </dependency>
+
+        <!-- zsy add begin 2018-07-05 整合spring security 框架 -->
+
+        <!-- zsy add begin 2019-05-25 基于spring-retry实现重试机制-->
+        <dependency>
+            <groupId>org.springframework.retry</groupId>
+            <artifactId>spring-retry</artifactId>
+            <version>1.2.4.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.9.3</version>
+        </dependency>
+        <!--zsy add end 2019-05-25 基于spring-retry实现重试机制-->
+
+    </dependencies>
 
 </project>

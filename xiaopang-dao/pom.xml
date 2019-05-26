@@ -10,6 +10,11 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>xiaopang-dao</artifactId>
 
+    <properties>
+        <mybatis-spring-boot>1.2.0</mybatis-spring-boot>
+        <mysql-connector>5.1.39</mysql-connector>
+    </properties>
+
     <dependencies>
         <!-- zsy begin 2018-04-20 导入组内模块 -->
         <dependency>
@@ -18,6 +23,18 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <!-- zsy end 2018-04-20 导入组内模块 -->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>${mybatis-spring-boot}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql-connector}</version>
+        </dependency>
+
     </dependencies>
 
 </project>
